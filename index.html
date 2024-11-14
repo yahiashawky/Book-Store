@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.5/dist/sweetalert2.min.css">
+</head>
+<body>
+   <!-- NavBar -->
+    <div class="nav-bar">
+        <nav>
+            <div class="nav-left">
+                <i class='bx bx-book-reader'></i>
+                <a><p>Fox Book</p></a>
+            </div>
+            <div class="nav-middle">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Featured</a></li>
+                    <li><a href="#">Discount</a></li>
+                    <li><a href="#">New Books</a></li>
+                    <li><a href="#">Testimonails</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <i class='bx bx-search-alt-2 search-icon'></i>
+                <i class='bx bx-user user-icon'></i>
+                <a href="#view"><i class='bx bx-shopping-bag'></i></a>
+                <i class='bx bx-moon moon'></i>
+                <i class='bx bx-sun sun'></i>
+                <span class="count">0</span>
+            </div>
+        </nav>
+    </div>
+    <div class="nav-search">
+        <i class='bx bx-x close-button' ></i>
+        <div class="search-input">
+            <input type="text" placeholder="What Are You Looking For...">
+            <i class='bx bx-search-alt-2 search-button' ></i>
+        </div>
+    </div>
+    <div class="user-nav">
+        <i class='bx bx-x close-user' ></i>
+        <form action="#">
+            <h2>Log In</h2>
+        <input type="text" placeholder="Enter Your Name">
+        <input type="text" placeholder="Enter Your password">
+        <button>submit</button>
+        </form>
+    </div>
+
+    <!-- nav End -->
+
+    <!-- Start Home OR Header -->
+
+    <section class="home container">
+        <div class="home-left">
+            <h1>Browse & Select</h1>
+            <h2>Fox-Books</h2>
+            <p>Find the best e-books from your favorite writers, explore hundreds <br>of books with all possible categories, take advantage of the <br>50% discount and much more.</p>
+            <button>Explore Now</button>
+        </div>
+        <div class="home-right">
+            <div class="home-parent swiper">
+                <div class="home-child swiper-wrapper">
+                    <img src="images/home-book-1.png" class="swiper-slide" alt="">
+                    <img src="images/home-book-2.png" class="swiper-slide" alt="">
+                    <img src="images/home-book-3.png" class="swiper-slide" alt="">
+                    <img src="images/home-book-4.png" class="swiper-slide" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home End -->
+
+    <!-- Start services -->
+     
+    <section class="services container">
+        <h1>My Services</h1>
+        <div class="services-content">
+            <div>
+                <i class='bx bxs-truck'></i>
+                <h2>Free Shipping</h2>
+                <p>Order More Than $100</p>
+            </div>
+            <div>
+                <i class='bx bx-shopping-bag'></i>                <h2>Fast Shipping</h2>
+                <p>Order More Than $100</p>
+            </div>
+            <div>
+                <i class='bx bx-check-shield'></i>
+                <h2>High Quality</h2>
+                <p>Order More Than $100</p>
+            </div>
+        </div>
+    </section>
+    <!-- End services -->
+
+    <!-- Start Products -->
+     <section class="products container">
+        <div class="products-content">
+            
+        </div>
+     </section>
+    <!-- End Products -->
+
+    <!-- Start Discount -->
+
+    <section class="discount container">
+        <div class="discount-left">
+            <h1>Up To 50% Discount</h1>
+            <p>Take advantage of the discount days we have for you, buy books from your favorite writers, the more you buy, the more discounts we have for you.</p>
+            <button>Shop Now</button>
+        </div>
+        <div class="discount-right">
+            <img class="dis-1" src="images/discount-book-1.png" alt="">
+            <img class="dis-2" src="images/discount-book-2.png" alt="">
+        </div>
+    </section>
+    <!-- End Discount -->
+
+    <!-- start profiles -->
+     <section class="profiles container">
+            <div class="profiles-flex swiper">
+                <div class="profile-content swiper-wrapper">
+                    <div class="profile swiper-slide">
+                        <img src="images/testimonial-perfil-1.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis mollitia voluptas reprehenderit accusantium dolores quae necessitatibus cumque expedita numquam inventore odit saepe rerum, soluta vitae excepturi? Corrupti quos eos quaerat.</p>
+                        <h2>Somaya Ahmed</h2>
+                        <h3>UI/UX Designer</h3>
+                    </div>
+                    <div class="profile swiper-slide">
+                        <img src="images/testimonial-perfil-2.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis mollitia voluptas reprehenderit accusantium dolores quae necessitatibus cumque expedita numquam inventore odit saepe rerum, soluta vitae excepturi? Corrupti quos eos quaerat.</p>
+                        <h2>Yahia Shawky</h2>
+                        <h3>Frond-End Devoloper</h3>
+                    </div>
+                    <div class="profile swiper-slide">
+                        <img src="images/testimonial-perfil-3.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis mollitia voluptas reprehenderit accusantium dolores quae necessitatibus cumque expedita numquam inventore odit saepe rerum, soluta vitae excepturi? Corrupti quos eos quaerat.</p>
+                        <h2>Sara Salamaa</h2>
+                        <h3>Back-End Devoloper</h3>
+                    </div>
+                    <div class="profile swiper-slide">
+                        <img src="images/testimonial-perfil-4.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis mollitia voluptas reprehenderit accusantium dolores quae necessitatibus cumque expedita numquam inventore odit saepe rerum, soluta vitae excepturi? Corrupti quos eos quaerat.</p>
+                        <h2>Ahmed Said</h2>
+                        <h3>full-stack Devoloper</h3>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+     </section>
+
+      <!-- start cart items -->
+      <div class="cart container" id="view">
+        <div class="cart-products">
+            
+        </div>
+        <div class="total">
+            <h2>total</h2>
+            <h2 class="total-price"></h2>
+        </div>
+     </div>
+    <!-- end cart items -->
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="products.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
